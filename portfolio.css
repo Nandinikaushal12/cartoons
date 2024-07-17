@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: auto auto;
+   background-color: grey;
+    gap: 10px;
+    border: 10px solid black;
+     
+    margin: 20px; 
+}
+
+.container div{
+    background-color: white;
+}
+
+h2{
+    color: purple;
+}
+
+.heading
+{
+    grid-column-start: 1;
+     grid-column-end: 3; 
+    text-align: center;
+    color: crimson;
+    text-decoration: underline;
+    padding: 20px;   
+}
+   
+
+.shinchan
+{
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+img{
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.doremon
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.barbie
+{
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.henry
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.watch
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    padding: 20px;
+}
+
+.watch h2{
+    color: black;
+    text-decoration: underline;
+}
+
+.watch i{
+    color: red;
+    padding 5px;
+    margin: 5px;
+}
